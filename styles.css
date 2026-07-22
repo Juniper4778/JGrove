@@ -404,11 +404,18 @@ footer{
 }
 
 .process-step{
-    background:#f7f9f7;
-    padding:35px;
-    border-radius:12px;
+    background:#ffffff;
+    padding:36px;
+    border-radius:16px;
+    border:1px solid #e7ece7;
     text-align:center;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    box-shadow:0 12px 28px rgba(0,0,0,.06);
+    transition:all .25s ease;
+}
+
+.process-step:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 36px rgba(0,0,0,.12);
 }
 
 .step-number{
