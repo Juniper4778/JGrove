@@ -98,14 +98,15 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-.button.secondary {
-    background: transparent;
-    border: 2px solid white;
+.button.secondary{
+    background:transparent;
+    border:2px solid white;
+    color:white;
 }
 
-.button.secondary:hover {
-    background: white;
-    color: #1f4d2b;
+.button.secondary:hover{
+    background:white;
+    color:#1f4d2b;
 }
 
 .hero h2 {
