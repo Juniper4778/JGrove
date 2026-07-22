@@ -321,7 +321,12 @@ footer{
     background:white;
     transition:border-color .25s ease, box-shadow .25s ease;
 }
-.contact-form textarea{
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline:none;
+    border-color:#3f8f46;
+    box-shadow:0 0 0 4px rgba(63,143,70,.15);
+}.contact-form textarea{
     resize:vertical;
 }
 
