@@ -141,11 +141,11 @@ section {
 
 section h2 {
     text-align: center;
-    font-size: 2.4rem;
-    margin-bottom: 45px;
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 18px;
     color: #1f4d2b;
 }
-
 /* Services */
 
 .service-grid {
