@@ -26,10 +26,18 @@ body{
 ========================== */
 
 header{
-    background:#234b2c;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+
+    background:transparent;
+
     color:white;
-    padding:20px 0;
-    text-align:center;
+
+    padding:25px 0;
+
+    z-index:1000;
 }
 
 header h1{
