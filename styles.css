@@ -118,19 +118,28 @@ nav a:hover {
     margin-bottom: 35px;
 }
 
-.button {
-    display: inline-block;
-    background: #3f8f46;
-    color: white;
-    padding: 16px 34px;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: .3s;
+.button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background:#3f8f46;
+    color:white;
+    padding:16px 36px;
+    min-height:56px;
+    text-decoration:none;
+    border:none;
+    border-radius:10px;
+    font-weight:600;
+    font-size:1rem;
+    cursor:pointer;
+    transition:all .25s ease;
+    box-shadow:0 8px 20px rgba(31,77,43,.20);
 }
 
-.button:hover {
-    background: #2d6d34;
+.button:hover{
+    background:#2d6d34;
+    transform:translateY(-2px);
+    box-shadow:0 12px 28px rgba(31,77,43,.25);
 }
 
 /* Sections */
