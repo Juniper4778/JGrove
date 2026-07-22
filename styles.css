@@ -14,8 +14,11 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    width: 90%;
+
+    .container{
+    width:min(92%,1200px);
+    margin:0 auto;
+}
     max-width: 1200px;
     margin: auto;
 }
