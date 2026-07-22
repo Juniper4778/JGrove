@@ -58,14 +58,22 @@ nav a:hover{
    Hero
 ========================== */
 
-background:url("https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1800&q=80") center center/cover no-repeat;
-.hero::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:rgba(0,0,0,.45);
-}
+.hero{
+    background:
+        linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+        url("hero.jpg")
+        center center/cover no-repeat;
 
+    min-height:75vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+}
 .hero-content{
     position:relative;
     z-index:2;
