@@ -208,7 +208,41 @@ footer {
 }
 
 /* Mobile */
+/* Contact Form */
 
+.contact-form{
+    max-width:700px;
+    margin:40px auto 0;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:16px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-family:'Poppins',sans-serif;
+    font-size:1rem;
+}
+
+.contact-form textarea{
+    resize:vertical;
+}
+
+.contact-form button{
+    align-self:center;
+}
+
+.contact-info{
+    margin:30px 0;
+}
+
+.contact-info h3{
+    margin:10px 0;
+}
 @media (max-width:768px){
 
 header .container{
