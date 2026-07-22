@@ -58,13 +58,51 @@ nav a:hover {
 /* Hero */
 
 .hero {
-    background: linear-gradient(rgba(31,77,43,.65), rgba(31,77,43,.65)),
-                url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80");
+    min-height: 100vh;
+    background: linear-gradient(rgba(22,60,35,.60), rgba(22,60,35,.60)),
+        url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1800&q=80");
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-overlay {
+    width: 100%;
+}
+
+.hero-content {
     color: white;
     text-align: center;
-    padding: 140px 20px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: 1.15;
+}
+
+.hero-content p {
+    font-size: 1.35rem;
+    margin-bottom: 40px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.button.secondary {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.button.secondary:hover {
+    background: white;
+    color: #1f4d2b;
 }
 
 .hero h2 {
