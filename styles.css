@@ -1,9 +1,7 @@
-/* ==========================
+/* ===================================================
    Juniper Grove Property Service LLC
-   Version 1.0
-========================== */
-
-/* Reset */
+   styles.css
+=================================================== */
 
 *{
     margin:0;
@@ -16,263 +14,189 @@ html{
 }
 
 body{
+
     font-family:'Poppins',sans-serif;
-    background:#f7f7f7;
-    color:#333;
+
+    color:#2d2d2d;
+
+    background:#ffffff;
+
     line-height:1.6;
+
+}
+
+img{
+
+    max-width:100%;
+    display:block;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
 }
 
 .container{
+
     width:90%;
     max-width:1200px;
-    margin:0 auto;
+
+    margin:auto;
+
 }
 
-/* ==========================
-   HEADER
-========================== */
+/*=============================
+HEADER
+==============================*/
 
-header{
+.header{
+
     position:fixed;
+
     top:0;
+
     left:0;
+
     width:100%;
-    background:rgba(22,49,31,.96);
-    backdrop-filter:blur(10px);
+
     z-index:1000;
-    box-shadow:0 2px 12px rgba(0,0,0,.18);
+
+    background:rgba(24,55,33,.82);
+
+    backdrop-filter:blur(12px);
+
+    transition:.35s;
+
 }
 
-.header-container{
-    max-width:1200px;
-    margin:0 auto;
-    padding:14px 30px;
+.nav-container{
 
     display:flex;
+
     justify-content:space-between;
+
     align-items:center;
+
+    height:88px;
+
 }
 
-.header-spacer{
-    height:92px;
+.logo{
+
+    color:white;
+
+    font-size:1.8rem;
+
+    font-weight:700;
+
+    line-height:1.1;
+
 }
 
-.logo img{
-    height:60px;
-    width:auto;
+.logo span{
+
     display:block;
+
+    font-size:.95rem;
+
+    font-weight:400;
+
+    letter-spacing:1px;
+
 }
 
-nav ul{
+.nav-links{
+
     display:flex;
-    gap:35px;
+
     list-style:none;
+
+    gap:42px;
+
 }
 
-nav a{
-    color:#fff;
-    text-decoration:none;
-    font-weight:600;
-    transition:.25s;
+.nav-links a{
+
+    color:white;
+
+    font-weight:500;
+
+    transition:.3s;
+
 }
 
-nav a:hover{
-    color:#dcefdc;
+.nav-links a:hover{
+
+    color:#d8e8d3;
+
 }
 
 .phone-button{
-    background:#2f6b43;
-    color:#fff;
-    padding:12px 24px;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:700;
-    transition:.25s;
+
+    background:#4f8d43;
+
+    color:white;
+
+    padding:14px 22px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    transition:.3s;
+
 }
 
 .phone-button:hover{
-    background:#245736;
+
+    background:#5fa650;
+
 }
 
-/* ==========================
-   HERO
-========================== */
+/*=============================
+HERO
+==============================*/
 
 .hero{
 
-    min-height:calc(100vh - 92px);
+    position:relative;
+
+    min-height:100vh;
 
     display:flex;
-    justify-content:center;
+
     align-items:center;
 
-    text-align:center;
+    background-image:url("images/hero.jpg");
 
-    background:
-    linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40)),
-    url("hero.jpg") center center/cover no-repeat;
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
 }
 
 .hero-content{
 
-    max-width:850px;
-    padding:40px 20px;
+    position:relative;
+
+    z-index:2;
+
+    max-width:720px;
 
     color:white;
-
-}
-
-.hero h2{
-
-    font-size:4rem;
-    line-height:1.1;
-    margin-bottom:20px;
-
-    text-shadow:0 4px 12px rgba(0,0,0,.4);
-
-}
-
-.hero p{
-
-    font-size:1.35rem;
-
-    margin-bottom:40px;
-
-}
-
-.button{
-
-    display:inline-block;
-
-    background:#2f6b43;
-
-    color:white;
-
-    padding:18px 38px;
-
-    border-radius:40px;
-
-    text-decoration:none;
-
-    font-weight:700;
-
-    transition:.25s;
-
-}
-
-.button:hover{
-
-    background:#245736;
-
-    transform:translateY(-2px);
-
-}
-
-/* ==========================
-   Sections
-========================== */
-
-section{
-    padding:80px 20px;
-}
-
-section h2{
-    text-align:center;
-    color:#234b2c;
-    font-size:2.3rem;
-    margin-bottom:40px;
-}
-
-/* ==========================
-   Services
-========================== */
-
-.services{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:25px;
-}
-
-.service{
-    background:white;
-    padding:25px;
-    border-radius:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
-    text-align:center;
-}
-
-.service h3{
-    margin-bottom:15px;
-    color:#234b2c;
-}
-
-/* ==========================
-   Service Area
-========================== */
-
-#service-area{
-    text-align:center;
-    background:#eef5ef;
-}
-
-/* ==========================
-   Contact
-========================== */
-
-#contact{
-    text-align:center;
-}
-
-#contact p{
-    margin:15px 0;
-}
-
-#contact a{
-    color:#234b2c;
-    text-decoration:none;
-    font-weight:600;
-}
-
-/* ==========================
-   Footer
-========================== */
-
-footer{
-    background:#234b2c;
-    color:white;
-    text-align:center;
-    padding:25px;
-}
-
-/* ==========================
-   Mobile
-========================== */
-
-@media(max-width:768px){
-
-.hero{
-    height:60vh;
-}
-
-.hero h2{
-    font-size:2.2rem;
-}
-
-.hero p{
-    font-size:1rem;
-}
-
-header h1{
-    font-size:1.6rem;
-}
-
-nav{
-    gap:15px;
-}
-
-.button{
-    width:100%;
-    max-width:300px;
-}
 
 }
