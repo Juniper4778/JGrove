@@ -146,7 +146,11 @@ section h2 {
     margin-bottom: 18px;
     color: #1f4d2b;
 }
-/* Services */
+section p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #555;
+}/* Services */
 
 .service-grid {
     display: grid;
