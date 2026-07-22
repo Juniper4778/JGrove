@@ -197,7 +197,52 @@ section h2 {
     margin-bottom: 25px;
     color: #1f4d2b;
 }
+/* Call To Action */
 
+.cta{
+    background:#1f4d2b;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.cta h2{
+    color:white;
+    font-size:2.5rem;
+    margin-bottom:20px;
+}
+
+.cta p{
+    max-width:700px;
+    margin:0 auto 30px;
+    color:#dbe9dc;
+    font-size:1.1rem;
+}
+
+.cta-highlights{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-bottom:40px;
+    font-weight:600;
+}
+
+.cta-button{
+    display:inline-block;
+    background:white;
+    color:#1f4d2b;
+    padding:18px 36px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:700;
+    font-size:1.2rem;
+    transition:.3s;
+}
+
+.cta-button:hover{
+    background:#dfeee0;
+}
 /* Footer */
 
 /* Footer */
