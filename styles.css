@@ -1,1 +1,328 @@
+/* ===========================================
+   Juniper Grove Property Service LLC
+   Styles.css - Part 2A
+=========================================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    color:#333;
+    background:#ffffff;
+    line-height:1.6;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.container{
+    width:90%;
+    max-width:1400px;
+    margin:auto;
+}
+
+/*=========================
+HEADER
+=========================*/
+
+.header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+
+    background:rgba(255,255,255,.82);
+
+    backdrop-filter:blur(10px);
+
+    transition:.3s;
+
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+
+}
+
+.header .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+}
+
+.logo img{
+
+    width:330px;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    gap:38px;
+
+    list-style:none;
+
+}
+
+nav a{
+
+    font-size:.95rem;
+
+    font-weight:600;
+
+    letter-spacing:1px;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#2f6b3f;
+
+}
+
+.phone{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.phone i{
+
+    width:48px;
+
+    height:48px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#2f6b3f;
+
+    color:#fff;
+
+    font-size:20px;
+
+}
+
+.phone strong{
+
+    display:block;
+
+    color:#234e2e;
+
+    font-size:1.3rem;
+
+}
+
+.phone span{
+
+    color:#234e2e;
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+}
+
+/*=========================
+HERO
+=========================*/
+
+.hero{
+
+    height:100vh;
+
+    min-height:760px;
+
+    background:url("images/hero.jpg") center center/cover no-repeat;
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        90deg,
+        rgba(0,0,0,.62),
+        rgba(0,0,0,.20),
+        rgba(0,0,0,.05)
+    );
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:5;
+
+    width:650px;
+
+    margin-left:7%;
+
+    color:white;
+
+}
+
+.hero h1{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:5rem;
+
+    line-height:1;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.divider{
+
+    width:260px;
+
+    height:3px;
+
+    background:#86b65d;
+
+    margin-bottom:30px;
+
+}
+
+.hero p{
+
+    font-size:1.25rem;
+
+    line-height:2;
+
+    font-weight:500;
+
+    margin-bottom:40px;
+
+}
+
+/*=========================
+BUTTONS
+=========================*/
+
+.buttons{
+
+    display:flex;
+
+    gap:22px;
+
+    margin-bottom:30px;
+
+}
+
+.btn{
+
+    padding:18px 38px;
+
+    border-radius:8px;
+
+    font-weight:700;
+
+    transition:.35s;
+
+    display:inline-block;
+
+}
+
+.green{
+
+    background:#2f6b3f;
+
+    color:white;
+
+}
+
+.green:hover{
+
+    background:#234e2e;
+
+    transform:translateY(-2px);
+
+}
+
+.outline{
+
+    border:2px solid white;
+
+    color:white;
+
+}
+
+.outline:hover{
+
+    background:white;
+
+    color:#234e2e;
+
+}
+
+.location{
+
+    font-size:1.05rem;
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:12px;
+
+}
+
+.location i{
+
+    margin-top:5px;
+
+    color:#9ed16d;
+
+}
