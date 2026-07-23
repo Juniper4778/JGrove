@@ -695,3 +695,148 @@ footer{
     color:#d8d8d8;
 
 }
+/*==========================================
+  RESPONSIVE DESIGN
+==========================================*/
+
+@media (max-width:1200px){
+
+    .service-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .about-grid{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .area-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero h1{
+        font-size:4rem;
+    }
+
+}
+
+@media (max-width:900px){
+
+    .header .container{
+        flex-direction:column;
+        gap:20px;
+        padding:15px 0;
+    }
+
+    nav ul{
+        gap:20px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .phone{
+        justify-content:center;
+    }
+
+    .hero{
+        min-height:700px;
+    }
+
+    .hero-content{
+        width:90%;
+        margin:auto;
+        text-align:center;
+    }
+
+    .divider{
+        margin:25px auto;
+    }
+
+    .buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .location{
+        justify-content:center;
+        text-align:center;
+    }
+
+    .service-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media (max-width:600px){
+
+    .logo img{
+        width:220px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        gap:12px;
+        text-align:center;
+    }
+
+    .hero{
+        min-height:650px;
+    }
+
+    .hero h1{
+        font-size:2.7rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+        line-height:1.7;
+    }
+
+    .btn{
+        width:100%;
+        text-align:center;
+    }
+
+    .service-grid{
+        grid-template-columns:1fr;
+    }
+
+    .service-card img{
+        height:220px;
+    }
+
+    .area-text ul{
+        columns:1;
+    }
+
+    .contact-card{
+        padding:30px 20px;
+    }
+
+    .footer{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+}
+
+/*==========================================
+  SMALL ANIMATIONS
+==========================================*/
+
+.service-card,
+.btn,
+nav a,
+.about-image img{
+    transition:all .3s ease;
+}
+
+.about-image img:hover{
+    transform:scale(1.03);
+}
+
+html{
+    scroll-padding-top:120px;
+}
