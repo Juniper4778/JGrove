@@ -58,11 +58,20 @@ padding:18px 0;
 }
 
 .logo h2{
-font-size:28px;
+font-size:30px;
 font-weight:700;
 color:#234b35;
+line-height:1;
+margin-bottom:4px;
 }
 
+.logo p{
+font-size:13px;
+letter-spacing:2px;
+text-transform:uppercase;
+color:#5f6d63;
+font-weight:600;
+}
 nav{
 display:flex;
 gap:35px;
