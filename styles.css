@@ -424,11 +424,13 @@ display:flex;
 
 justify-content:center;
 
-gap:80px;
+align-items:flex-start;
+
+gap:60px;
 
 flex-wrap:wrap;
 
-margin-bottom:40px;
+margin:25px 0;
 
 }
 
