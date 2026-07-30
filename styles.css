@@ -168,7 +168,7 @@ color:#fff;
 
 font-family:'Montserrat',sans-serif;
 
-font-size:clamp(2.3rem,4vw,3.8rem);
+font-size:clamp(2.4rem,4vw,3.8rem);
 
 font-weight:600;
 
@@ -176,13 +176,11 @@ line-height:1.15;
 
 letter-spacing:-1px;
 
-max-width:850px;
+margin-bottom:20px;
 
-margin:0 auto 25px;
+color:#ffffff;
 
-color:#fff;
-
-text-shadow:0 3px 12px rgba(0,0,0,.35);
+text-shadow:0 3px 10px rgba(0,0,0,.35);
 
 }
 .hero p{
