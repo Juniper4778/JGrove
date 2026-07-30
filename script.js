@@ -1,16 +1,21 @@
-// Juniper Grove Property Service LLC
-// Version 1.0
+document.querySelectorAll('a[href^="#"]').forEach(link => {
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+link.addEventListener('click', function(e){
 
-        const target = document.querySelector(this.getAttribute('href'));
+e.preventDefault();
 
-        if (target) {
-            target.scrollIntoView({
-                behavior: 'smooth'
-            });
-        }
-    });
+const target=document.querySelector(this.getAttribute('href'));
+
+if(target){
+
+target.scrollIntoView({
+
+behavior:'smooth'
+
+});
+
+}
+
+});
+
 });
