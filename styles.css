@@ -168,7 +168,7 @@ color:#fff;
 
 font-family:'Montserrat',sans-serif;
 
-font-size:clamp(2.8rem,5vw,4.5rem);
+font-size:clamp(2.3rem,4vw,3.8rem);
 
 font-weight:600;
 
@@ -176,17 +176,19 @@ line-height:1.15;
 
 letter-spacing:-1px;
 
-margin-bottom:20px;
+max-width:850px;
 
-color:#ffffff;
+margin:0 auto 25px;
 
-text-shadow:0 3px 10px rgba(0,0,0,.45);
+color:#fff;
+
+text-shadow:0 3px 12px rgba(0,0,0,.35);
 
 }
 
 .hero p{
 
-font-size:clamp(1rem,1.8vw,1.35rem);
+font-size:clamp(1rem,1.6vw,1.3rem);
 
 font-weight:400;
 
@@ -194,7 +196,9 @@ max-width:850px;
 
 margin:0 auto 45px;
 
-color:#ffffff;
+color:#fff;
+
+line-height:1.6;
 
 }
 
