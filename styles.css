@@ -165,23 +165,14 @@ color:#fff;
 }
 
 .hero h1{
-
-font-family:'Montserrat',sans-serif;
-
-font-size:clamp(2.4rem,4vw,3.8rem);
-
+font-family:'Cormorant Garamond',serif;
+font-size:clamp(2.8rem,4vw,4.2rem);
 font-weight:600;
-
-line-height:1.15;
-
-letter-spacing:-1px;
-
+line-height:1.05;
+letter-spacing:0;
 margin-bottom:20px;
-
 color:#ffffff;
-
 text-shadow:0 3px 10px rgba(0,0,0,.35);
-
 }
 .hero p{
 
